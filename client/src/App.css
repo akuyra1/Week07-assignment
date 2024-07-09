@@ -1,0 +1,93 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+table {
+  max-width: 900px;
+  width: 100%;
+  margin: 3rem 3rem;
+  background-color: rgba(0, 0, 0, 0.544);
+  padding: 5em;
+ }
+
+table th, table td {
+  font-size: 2rem;
+  text-align: center;
+  /* background-color: #394683; */
+  color: #fff;
+  padding: 20px;
+  opacity: .8;
+}
+
+
+form {
+  display: flex;
+  justify-content: flex-start;
+  margin: 2em 10rem;
+}
+
+form input {
+  padding: 15px;
+  margin: 10px;
+  height: 20px;
+  font-size: 1.2rem;
+  border-radius: 1.2rem;
+}
+
+form input:hover {
+  background-color: rgb(215, 226, 255);
+}
+
+.submit-btn {
+  font-size: 1.3rem;
+  width: 100px;
+  height: 50px;
+  /* padding: 20px 0; */
+  margin: 12px 0;
+}
+
+
+.delete-btn,
+.submit-btn {
+  padding: .8rem;
+  font-size: 1.2rem;
+  border-radius: 1.1rem;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px black;
+
+}
+
+.delete-btn:hover,
+.submit-btn:hover {
+  background-color: rgb(174, 191, 239);
+  border: 2px solid black;
+}
+
+body {
+  background-image: url('assets/background3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.posts-header,
+.home-header,
+.addPost-header {
+  color: #fff;
+  margin: 2em;
+  background-color: rgb(76, 86, 175);
+  width: fit-content;
+  padding: 1em;
+  opacity: .8;
+  border-radius: 2em;
+  box-shadow: 4px 4px 4px black;
+
+}
+
+
+
+

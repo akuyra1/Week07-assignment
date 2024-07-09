@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+nav {
+    background-color: #1c2e58;
+    display: flex;
+    height: 5rem;
+    opacity: .85;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3rem;
+    justify-content: flex-end;
+    padding: 1.3rem;
+    font-size: 2rem;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #98b5e3;
+}
