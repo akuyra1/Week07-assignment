@@ -129,10 +129,10 @@ export default function AddPost() {
 
                 <tbody>
                     {users.map((user)=>
-                        <tr key={user.id}>
+                        <tr className='first-row' key={user.id}>
                             <td>{user.id} </td>
-                            <td>{user.name}</td>
-                            <td>{user.post}</td>
+                            <td >{user.name}</td>
+                            <td className='table-row'>{user.post}</td>
 
                             <td>
                               <button className='delete-btn' onClick={() => {deleteUser(user.id)}}>Delete</button>

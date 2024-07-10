@@ -19,7 +19,6 @@ function App() {
                 <Route path='/posts' element={<Posts/>} />
                 <Route path='/addPost' element={<AddPost/>} />
             </Routes>
-                
         </>
   )
 }
