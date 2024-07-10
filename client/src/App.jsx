@@ -5,8 +5,6 @@ import Posts from './pages/Posts'
 import AddPost from './pages/AddPost'
 import './App.css';
 import './components/Header.css'
-import './assets/elden-ring-background.png'
-import './assets/elden-ring-background2.png'
 import './assets/background3.jpg'
 
 
