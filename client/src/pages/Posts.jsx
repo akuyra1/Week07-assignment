@@ -8,7 +8,7 @@ export default function Posts(props) {
     return (
         <>
             <Header name="Posts" />                                 
-            <h1 className='posts-header'>This is a page for all the posts</h1>
+            <h1 className='posts-header'>No posts available, awaiting <span className='random-span'>supernova</span> for creation.</h1>
         </>
       )
 }
